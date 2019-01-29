@@ -1,0 +1,31 @@
+.container {
+    width: 50%;
+    margin: 30px auto;
+    background-color: #fcfafafb;
+    padding: 30px;
+    text-align: center;
+}
+
+button {
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 120%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: blueviolet;
+}
+
+#greeting, #soccer {
+    border: 1px solid rgb(180, 170, 170);
+    padding: 20px;
+    margin: 30px;
+}
+
