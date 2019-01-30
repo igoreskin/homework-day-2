@@ -11,7 +11,7 @@ function welcome() {
 
 function soccer(user) {
     let message;
-    let confirmation = confirm(`Do you like soccer, ${user}?`);
+    let confirmation = confirm(`Do you like soccer, ${user}? Please click Ok if you do or Cancel if your don't!`);
     if (confirmation == true) {
         message = `${user} likes soccer!`;
     } else {
